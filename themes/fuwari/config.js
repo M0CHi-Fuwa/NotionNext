@@ -86,7 +86,7 @@ const CONFIG = {
   /** true：隐藏顶栏调色盘按钮，无法在站内改色相 */
   FUWARI_THEME_COLOR_FIXED: false,
   /** 文章页右侧浮动区：跳转评论区按钮 */
-  FUWARI_WIDGET_TO_COMMENT: true,
+  FUWARI_WIDGET_TO_COMMENT: false,
   /** 文章页右侧浮动区：深色模式切换 */
   FUWARI_WIDGET_DARK_MODE: true,
   /** 文章页目录：桌面在侧栏；小屏为浮动按钮抽屉（RightFloatArea） */
@@ -130,13 +130,13 @@ const CONFIG = {
   /** 文首：日期、分类、标签等元信息 */
   FUWARI_ARTICLE_META: true,
   /** 分享条 */
-  FUWARI_ARTICLE_SHARE: true,
+  FUWARI_ARTICLE_SHARE: false,
   /** 文末版权信息块 */
-  FUWARI_ARTICLE_COPYRIGHT: true,
+  FUWARI_ARTICLE_COPYRIGHT: false,
   /** 文末评论区（需在 `blog.config.js` 配置任一种评论服务，如 COMMENT_GISCUS_REPO / COMMENT_TWIKOO_ENV_ID 等，否则不渲染） */
-  FUWARI_ARTICLE_COMMENT: true,
+  FUWARI_ARTICLE_COMMENT: false,
   /** 文末上一篇 / 下一篇 */
-  FUWARI_ARTICLE_ADJACENT: true
+  FUWARI_ARTICLE_ADJACENT: false
 }
 
 export default CONFIG
