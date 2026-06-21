@@ -1,7 +1,7 @@
 const CONFIG = {
   // 博客標題 雙語言
-  CLAUDE_BLOG_NAME: process.env.NEXT_PUBLIC_CLAUDE_BLOG_NAME || '活字印刷',
-  CLAUDE_BLOG_NAME_EN: process.env.NEXT_PUBLIC_CLAUDE_BLOG_NAME_EN || process.env.NEXT_PUBLIC_CLAUDE_BLOG_NAME || 'Typography',
+  CLAUDE_BLOG_NAME: process.env.NEXT_PUBLIC_CLAUDE_BLOG_NAME || '麻糬ㄉ樹洞',
+  CLAUDE_BLOG_NAME_EN: process.env.NEXT_PUBLIC_CLAUDE_BLOG_NAME_EN || process.env.NEXT_PUBLIC_CLAUDE_BLOG_NAME || 'WEED_M0CHi',
 
   CLAUDE_POST_AD_ENABLE: process.env.NEXT_PUBLIC_CLAUDE_POST_AD_ENABLE || false, // 文章列表是否插入广告
 
